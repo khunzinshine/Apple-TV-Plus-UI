@@ -1,0 +1,139 @@
+.hero__body {
+  background: url('../../public/assets/images/large.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero__description {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero__button {
+  padding: 18px 31px;
+  font-size: 17px;
+  background-color: #ffffff;
+  color: #1d1d1f;
+  margin: 25px 0px 0px;
+  min-width: 28px;
+  border: none;
+  border-radius: 980px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+.hero__tv {
+  margin-top: 52px;
+  p {
+    font-size: 19px;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.image__hero__icon {
+  width: 41px;
+  height: 41px;
+  padding: 20px;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  background-size: 41px 41px;
+  background-repeat: no-repeat;
+  background-image: url('../../public/assets/images/tv.png');
+}
+
+.hero__title {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'MyAppleFont';
+}
+
+.hero__content {
+  color: #f5f5f7;
+  margin-top: 12rem;
+  &__fade {
+    opacity: 0;
+    color: #f5f5f7;
+    animation: textSlideUp 2s forwards;
+  }
+}
+
+@keyframes textSlideUp {
+  from {
+    transform: translateY(10%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1098px) {
+  .hero__body {
+    background: url('../../public/assets/images/medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__content {
+    color: #f5f5f7;
+    margin-top: 5rem;
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .hero__body {
+    background: url('../../public/assets/images/medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__title {
+    font-size: 70px;
+  }
+  .hero__content {
+    color: #f5f5f7;
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .hero__body {
+    background: url('../../public/assets/images/small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__title {
+    font-size: 42px;
+  }
+  .hero__content {
+    color: #f5f5f7;
+    margin-top: 7rem;
+    margin-left: 3rem;
+  }
+}
