@@ -101,6 +101,9 @@
     color: #f5f5f7;
     margin-top: 5rem;
     margin-left: 6rem;
+    &__fade {
+      margin-left: 6rem;
+    }
   }
 }
 
@@ -118,6 +121,10 @@
     color: #f5f5f7;
     margin-top: 5rem;
     margin-left: 5rem;
+
+    &__fade {
+      margin-left: 5rem;
+    }
   }
 }
 
@@ -135,5 +142,8 @@
     color: #f5f5f7;
     margin-top: 7rem;
     margin-left: 2rem;
+    &__fade {
+      margin-left: 2rem;
+    }
   }
 }
