@@ -36,21 +36,18 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 44px;
-  /* background-color: var(--topbar-background-color); */
-}
-
-.navbar a {
-  float: left;
-  font-size: 12px;
-  color: var(--r-globalnav-color);
-  text-align: center;
-  font-family: 'MyAppleFont';
-  padding: 14px 16px;
-  text-decoration: none;
+  a {
+    float: left;
+    font-size: 12px;
+    color: var(--r-globalnav-color);
+    text-align: center;
+    font-family: 'MyAppleFont';
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 }
 
 .dropdown {
-  /* float: left; */
   overflow: hidden;
 }
 
@@ -120,22 +117,20 @@ a {
   padding: 10px;
   margin-top: 2rem;
   height: 250px;
-}
-
-.column a {
-  float: none;
-  color: #fff;
-  line-height: 0.7;
-  font-size: 21px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.column span {
-  color: gray;
-  font-size: 12px;
-  padding: 10px;
+  a {
+    float: none;
+    color: #fff;
+    line-height: 0.7;
+    font-size: 21px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  span {
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+  }
 }
 
 /* Create three equal columns that floats next to each other */
@@ -144,24 +139,22 @@ a {
   width: 16.33%;
   padding: 10px;
   margin-top: 2rem;
-  /* background-color: var(--topbar-background-color); */
   height: 250px;
-}
+  a {
+    float: none;
+    color: #fff;
+    line-height: 0.1;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
 
-.column2 a {
-  float: none;
-  color: #fff;
-  line-height: 0.1;
-  font-size: 12px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.column2 span {
-  color: gray;
-  font-size: 12px;
-  padding: 10px;
+  span {
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+  }
 }
 
 /* Clear floats after the columns */
