@@ -27,8 +27,8 @@ const NavContentBar = () => {
   };
 
   return (
-    <div>
-      <nav className={`navbar__content__container ${isSticky ? 'sticky' : ''}`}>
+    <div className={isSticky ? 'sticky' : ''}>
+      <nav className={`navbar__content__container`}>
         <div className={styles.navbar__title}>Apple TV+</div>
         <div>
           <button onClick={handleRedirect} className={styles.navbar__streambtn}>
